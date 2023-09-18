@@ -21,7 +21,9 @@ body {
 .header {
 	float: left;
 	grid-area: header;
-	background-color: #c75513;
+	display: flex;
+	justify-content:space-between;
+	background-color: crimson;
 	padding: 30px;
 	text-align: left;
 	font-size: 35px;
@@ -33,6 +35,7 @@ body {
 	background-color: #ee8040;
 	text-decoration: underline;
 }
+
 /* The grid container */
 .grid-container {
 	display: grid;
@@ -73,7 +76,7 @@ body {
 /* Style the footer */
 .footer {
 	grid-area: footer;
-	background-color: #c75513;
+	background-color: crimson;
 	padding: 60px;
 	text-align: left;
 	height: 350px;
@@ -240,6 +243,14 @@ a {
 	height: 700px;
 	border-radius: 15px;
 	margin: 20px;
+}
+
+.content h2{
+	text-align: left;
+}
+
+.content a{
+	color: crimson;
 }
 /* STYLE FOR HOW TO CHARACTER INTRODUCTION*/
 /* Style the content */
